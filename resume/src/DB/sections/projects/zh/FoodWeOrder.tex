@@ -1,0 +1,21 @@
+\begin{twocolentry}{}
+\href{https://github.com/faketut/FoodWeOrder}{\textbf{FoodWeOrder}}
+\end{twocolentry}
+\begin{onecolentry}
+\begin{highlights}
+\item 构建带微信支付集成的 Flask 点餐服务：校验回调、订单结算幂等；将慢速/第三方 I/O 下沉到后台 worker 队列，避免高峰期阻塞 Web 层。
+\item 通过短事务封装库存校验与订单写入，并采用原子扣减（行级锁）消除并发结账导致的超卖，使现存库存与已履约订单保持一致。
+\item 交付商家端看板（按日聚合销售额、SKU 周转、复购客户），直接基于交易型数据模型生成，让店主用实时运营指标而非人工统计来调整库存与定价。
+\end{highlights}
+\end{onecolentry}
+
+\begin{twocolentry}{\hspace{.5pt} \href{https://github.com/faketut/FoodWeOrder}{GitHub}}
+    \textbf{FoodWeOrder}: 点餐与收银系统 \textbf{(Flask, 微信支付)}
+\end{twocolentry}
+\begin{onecolentry}
+\begin{highlights}
+\item 使用 Flask 构建点餐服务并集成微信支付：校验支付回调、实现订单结算幂等，将慢/第三方 I/O 下沉到后台任务队列，避免高峰期阻塞 Web 层。
+\item 通过短事务包裹库存校验与订单写入，并采用原子扣减（行级锁）消除并发结账导致的超卖，使库存与履约订单保持一致。
+\item 交付商家端仪表板（按日汇总销售额、SKU 周转、复购用户），直接从交易库聚合生成运营指标，支持基于实时数据调整备货与定价。
+\end{highlights}
+\end{onecolentry}

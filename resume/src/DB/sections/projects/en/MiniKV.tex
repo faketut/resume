@@ -1,0 +1,10 @@
+\begin{twocolentry}{}
+\href{https://github.com/faketut/MiniKV}{\textbf{MiniKV}}
+\end{twocolentry}
+\begin{onecolentry}
+\begin{highlights}
+\item Minimal LSM: append-only WAL, memtables flushed to SSTables, compaction merging overlaps to cap read amplification.
+\item SSTable block indexes; WAL replay + partial-tail discard so kill -9 mid-write does not corrupt committed keys.
+\item Tuned flush/compaction triggers and read-path buffer reuse for higher throughput under concurrent writers/scans vs.\ naive flush-every-write.
+\end{highlights}
+\end{onecolentry}

@@ -1,0 +1,57 @@
+\documentclass[10pt, letterpaper]{article}
+
+\input{../DB/style/preamble.tex}
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% new command for external links:
+
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+    \input{../DB/style/header.tex}
+    \begin{header}
+        \normalsize
+        % {} \\
+        % {}
+    \end{header}
+
+    \vspace{5 pt - 0.3 cm}
+
+\section{EDUCATION}
+\input{../DB/sections/common/edu.tex}
+\vspace{0.2 cm}
+\section{EXPERIENCE}
+\input{../DB/sections/experience/en/coop-manulife.tex}
+\vspace{0.1 cm}
+\input{../DB/sections/experience/en/coop-tbs.tex}
+\vspace{0.1 cm}
+\input{../DB/sections/experience/en/coop-lansi.tex}
+\vspace{0.1 cm}
+\input{../DB/sections/experience/en/intern-sanyang.tex}
+\vspace{0.2 cm}
+\section{Organizations}
+\input{../DB/sections/experience/en/analyst-uwfintech.tex}
+\input{../DB/sections/experience/en/director-uxr.tex}
+\vspace{0.2 cm}
+\section{PROJECTS}
+\input{../DB/sections/projects/en/WeAgree.tex}
+\vspace{0.1 cm}
+\input{../DB/sections/projects/en/SmartHandoff.tex}
+\vspace{0.2 cm}
+\section{Certificates \& Skills}
+\input{../DB/sections/certifications/en/PM.tex}
+\textbf{Skills}: Python, SQL, C\#, C++, Java, Git, Go, Kotlin, JavaScript,
+Linux, Windows, MacOS,
+.Net, Spring Boot, React, Node.js, Express.js, Flask,
+PostgreSQL, MySQL, MongoDB, Redis,
+AWS, GCP, Azure, Docker, Kubernetes, Terraform, GitHub Actions,
+Jira, Confluence, 
+Pytorch, TensorFlow, Scikit-learn, OpenCV, GenAI tools
+\end{document}

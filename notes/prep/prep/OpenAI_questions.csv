@@ -1,0 +1,18 @@
+question,position,jobTitle,company,year
+How do you query or order by in an in-memory database?,Software Engineer,Software Engineer,OpenAI,2024
+Can you write a function that changes the directory given the current directory and a new location?,Software Engineer,Software Engineer,OpenAI,2023
+Have you worked with single thread to multi-threads in your previous projects?,Software Engineer,Software Engineer,OpenAI,2020
+Can you write a web crawler with an emphasis on multithreading and multiprocessing?,Software Engineer,Staff Software Engineer,OpenAI,2024
+Can you explain a difficult dynamic programming problem you have worked on?,Software Engineer,Software Engineer(Internship),Flipkart; OpenAI,2022
+Have you studied systems and built consumer applications before?,Software Engineer,Member Of Technical Staff,OpenAI,2024
+Explain LRU caching.,Software Engineer,Member Of Technical Staff,OpenAI,2024
+Can you discuss a time when you had to design a system?,Software Engineer,Software Developer,Cloudflare; Google; OpenAI,2023
+Discuss system design for consistent hashing.,Software Engineer,Member Of Technical Staff,OpenAI,2024
+Can you provide an overview of your experience with system design?,Software Engineer,Member Of Technical Staff,OpenAI,2024
+Can you discuss a coding problem you have worked on in the past?,Software Engineer,Member Of Technical Staff,OpenAI,2024
+Can you explain LRU and web scraping?,Software Engineer,Software Engineer,OpenAI,2020
+Can you walk us through a presentation of your past work?,Software Engineer,Software Engineer,OpenAI,2023
+Can you discuss your experience with low-level geospatial indexing?,Software Engineer,Engineering Manager,OpenAI,2024
+Design an app that allows users to search for places nearby,Backend Developer,Senior Backend Engineer,OpenAI,2024
+Explain the principles of Object-Oriented Design.,Software Engineer,Software Engineer,OpenAI,2024
+How do you make tradeoffs in decision-making?,Software Engineer,Engineering Manager,OpenAI,2023

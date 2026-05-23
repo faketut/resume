@@ -1,0 +1,58 @@
+\documentclass[10pt, letterpaper]{article}
+
+\input{../DB/style/preamble.tex}
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% new command for external links:
+
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+    \input{../DB/style/header.tex}
+    \begin{header}
+        \normalsize
+        % {} \\
+        % {}
+    \end{header}
+
+    \vspace{5 pt - 0.3 cm}
+
+
+\section{EDUCATION}
+\vspace{0.1 cm}
+\input{../DB/sections/common/edu.tex}
+\vspace{0.2 cm}
+\section{EXPERIENCE}
+\input{../DB/sections/experience/en/coop-manulife.tex}
+\vspace{0.1 cm}
+\input{../DB/sections/experience/en/coop-tbs.tex}
+\vspace{0.1 cm}
+\input{../DB/sections/experience/en/intern-tiptop.tex}
+\vspace{0.1 cm}
+\input{../DB/sections/experience/en/coop-lansi.tex}
+\vspace{0.2 cm}
+\section{Organizations}
+\input{../DB/sections/experience/en/analyst-uwfintech.tex}
+\input{../DB/sections/experience/en/director-uxr.tex}
+\section{Activities}
+\input{../DB/sections/common/activ4Finance.tex}
+\vspace{0.2 cm}
+\section{Certificates \& Skills}
+\input{../DB/sections/certifications/en/FA.tex}
+\vspace{0.2cm}
+\section{Projects}
+\input{../DB/sections/projects/en/CabStream_ETL.tex}
+\vspace{0.2cm}
+\section{Skills}
+Excel, Word, Powerpoint, Power BI, Tableau, SQL, SAP, Oracle, 
+Power Automate, Python, Bloomberg Terminal,
+Financial Modeling, Valuation, GAAP/IFRS,
+GenAI tools, , 
+\end{document}
