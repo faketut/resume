@@ -3,8 +3,8 @@
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item Secure signing: crypto keypairs, GitHub OAuth, optional passkey step-up, versioned multi-signer workflows.
-\item Two-rail consent (proof/integrity + intent) producing exportable packages for offline verification.
-\item Hybrid off-chain store + on-chain anchor: Supabase for signed content/evidence; anchor only \texttt{final\_proof\_hash} on Arbitrum Sepolia.
+\item Auto-provisioned per-user Ed25519 keypair on GitHub OAuth; SimpleWebAuthn passkeys layered on as optional step-up evidence, not the signing key.
+\item Each signature stores content hash, payload hash, signature, and key fingerprint under Supabase RLS---tamper-evident audit trail per signer.
+\item On finalize, canonical \texttt{final\_proof\_hash} is anchored \texttt{bytes32} to Arbitrum Sepolia via Ethers v6; proof API exports a self-contained package for an offline verifier.
 \end{highlights}
 \end{onecolentry}

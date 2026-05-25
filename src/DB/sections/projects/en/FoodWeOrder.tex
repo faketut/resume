@@ -3,8 +3,8 @@
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item Built a Flask ordering service with WeChat Pay integration: verified callbacks, idempotent order settlement, and slow/third-party I/O pushed to a background worker queue to avoid blocking the web tier at peak load.
-\item Eliminated inventory oversell under concurrent checkouts by wrapping stock checks and order inserts in short DB transactions with atomic decrements (row-level locking), keeping on-hand counts aligned with fulfilled orders.
-\item Delivered a vendor dashboard (aggregated daily sales, SKU velocity, repeat customers) fed from the transactional schema so owners could adjust stock and pricing from live operational metrics rather than manual tallies.
+\item Idempotent WeChat Pay callbacks with verified signatures; slow I/O offloaded to a worker queue to keep the web tier non-blocking at peak load.
+\item Eliminated inventory oversell by wrapping stock checks and order inserts in row-locked DB transactions with atomic decrements.
+\item Vendor dashboard (daily sales, SKU velocity, repeat rate) fed straight off the transactional schema---no manual tallies.
 \end{highlights}
 \end{onecolentry}

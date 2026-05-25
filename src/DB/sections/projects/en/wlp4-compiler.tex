@@ -3,7 +3,8 @@
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item End-to-end WLP4 compiler (C++): hand-written lexer, SLR(1) parser, semantic passes on the parse tree, stack-aware ARM64 codegen for the course subset.
-\item Scoped symbol tables + types across decls/exprs/calls; lowered control flow, procedures, pointers/arrays to ARM64 with stable calling convention and stack layout.
+\item Multi-pass C++ pipeline: \texttt{wlp4scan} $\rightarrow$ \texttt{wlp4parse} (LR) $\rightarrow$ \texttt{wlp4type} $\rightarrow$ \texttt{wlp4gen} emitting ARM64 assembly.
+\item Codegen lowers control flow, procedures, and pointer/array ops with a stable calling convention; full transitions traceable through annotated \texttt{.wlp4ti} trees.
+\item \textbf{$-$79.6\%\ output size vs the reference \texttt{wlp4c}} across 65 programs; CI gates every push on the 25-program byte-equal regression suite.
 \end{highlights}
 \end{onecolentry}

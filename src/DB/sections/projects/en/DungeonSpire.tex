@@ -3,8 +3,8 @@
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item Implemented a C++ terminal roguelike with RAII ownership and Valgrind-clean runs; optional subsystems (weather, quests) plug in behind a CLI toggle so the core loop stays small and rebuild-friendly.
-\item Separated simulation (combat, AI, procedural generation) from terminal rendering via interfaces and polymorphic entities, enabling headless unit tests without a live TTY or GUI harness.
-\item Used seeded procedural generation so map and encounter layouts are reproducible, making regressions in connectivity, spawn rules, and combat invariants easy to catch in CI-style test runs.
+\item Decoupled simulation from \texttt{AnsiRenderer} via interfaces + polymorphic entities, so \texttt{doctest} drives combat/AI headlessly without a live TTY.
+\item Seeded PRNG (\texttt{-{}-seed}) yields byte-stable procedural runs, making regressions in map connectivity and spawn rules catchable in CI.
+\item 7-job CI matrix per push: \texttt{g++}/\texttt{clang++} builds, CMake, ASan+UBSan, \texttt{clang-tidy}, \texttt{cppcheck}, coverage upload.
 \end{highlights}
 \end{onecolentry}

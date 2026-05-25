@@ -3,8 +3,8 @@
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item Airflow DAGs: NYC TLC taxi → GCS → BigQuery in million-row batches for fare, duration, and route analytics.
-\item dbt curated layers (staging $\rightarrow$ marts, freshness, schema tests) keeping driver/trip/revenue metrics stable across refreshes.
-\item Looker Studio on BigQuery—filterable KPIs for zone/time revenue and utilization vs.\ ad hoc spreadsheets.
+\item Terraform-provisioned GCP stack (GCS + BigQuery + Airflow); whole pipeline tears down and rebuilds from one \texttt{apply}.
+\item dbt three-layer model (staging $\rightarrow$ dims/facts $\rightarrow$ marts) with \texttt{schema.yml} freshness/uniqueness tests; Airflow DAG logic unit-tested in CI.
+\item External-table-then-CTAS pattern keeps raw parquet cheap on GCS while marts stay query-optimised in BigQuery.
 \end{highlights}
 \end{onecolentry}

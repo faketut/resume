@@ -3,8 +3,8 @@
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item Minimal LSM: append-only WAL, memtables flushed to SSTables, compaction merging overlaps to cap read amplification.
-\item SSTable block indexes; WAL replay + partial-tail discard so kill -9 mid-write does not corrupt committed keys.
-\item Tuned flush/compaction triggers and read-path buffer reuse for higher throughput under concurrent writers/scans vs.\ naive flush-every-write.
+\item Go LSM engine---CRC32C WAL, skip-list MemTable, snappy block SSTables with sparse index + file-level Bloom so negative lookups skip disk.
+\item Serializable optimistic transactions: snapshot reads, buffered writes, commit-time read-set validation against a bounded commit log---atomic on no conflict.
+\item Async leader/follower replication over HTTP NDJSON and gRPC streaming; followers resume from local \texttt{LastSeq()} on reconnect so applied events aren't replayed.
 \end{highlights}
 \end{onecolentry}

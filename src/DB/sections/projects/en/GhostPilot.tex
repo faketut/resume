@@ -3,8 +3,8 @@
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item Windows interview copilot: invisible overlay streams ASR to a text LLM.
-\item Low-latency audio: WASAPI loopback, partial/final Azure ASR + segmenter; watchdog auto-restart.
-\item Alt+P vision path: Qt area capture + JPEG → vision LLM; local RAG (\texttt{knowledge/}) folded into text-LLM prompts.
+\item Invisible Windows overlay streams WASAPI loopback audio through partial/final Azure ASR into a text LLM, with a watchdog auto-restarting the capture pipeline.
+\item Alt+P vision path: Qt area capture $\rightarrow$ JPEG $\rightarrow$ vision LLM, result folded back into the text-LLM prompt.
+\item Local RAG over \texttt{knowledge/} injects user-curated context so answers stay grounded across long sessions.
 \end{highlights}
 \end{onecolentry}

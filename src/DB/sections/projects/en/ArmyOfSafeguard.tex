@@ -3,8 +3,8 @@
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item Built a 3-layer safety system with rule-based filters, binary classifiers, and a meta-classifier to combine results for real-time checks.
-\item Fine-tuned DeBERTa-v3 using LoRA; used neutral-context data to lower false alarms in medical and educational topics.
-\item Built an expert runner to handle parallel tasks and an aggregator to merge model scores, improving detection stability.
+\item Ensemble of four DeBERTa safeguard heads (toxicity, sexual, jailbreak, factuality) run in parallel via \texttt{expert\_runner}, hot-swappable through env vars.
+\item Learned logistic meta-aggregator fuses per-expert probabilities into a calibrated verdict, beating threshold/weighted baselines on held-out HF benchmarks.
+\item Training pipeline turns HF labels into expert-Q features and meta JSONL, so adding a new expert needs no aggregator changes.
 \end{highlights}
 \end{onecolentry}

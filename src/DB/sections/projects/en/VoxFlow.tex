@@ -3,8 +3,8 @@
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item Real-time Twilio Voice agent: bidirectional WS audio into Ultravox; explicit FSM (greet, verify, schedule) for coherent sub-second streaming turns.
-\item n8n post-call/scheduling: calendar APIs, TZ-aware slots, FastAPI webhooks—bookings/follow-ups without manual ops.
-\item FastAPI split: thin Twilio HTTP routes, async WS media handlers, injectable session/calendar services—business logic off the hot audio path for easier tests.
+\item Bidirectional Twilio $\leftrightarrow$ Ultravox media over WebSocket, driven by a multi-stage call FSM (greet $\rightarrow$ verify $\rightarrow$ schedule) with per-stage voice switching.
+\item n8n post-call automation: TZ-aware calendar booking, HMAC-SHA256 signed outbound webhooks, retry with exponential backoff.
+\item Hardened ops---Twilio signature validation, WS idle timeout, structured JSON logs, non-root Docker image with \texttt{/health}---all covered by a pytest suite.
 \end{highlights}
 \end{onecolentry}
