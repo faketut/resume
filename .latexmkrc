@@ -1,4 +1,4 @@
-# These paths assume latexmk runs with `-cd` on a file in `resume/src/CV/`.
+# These paths assume latexmk runs with `-cd` on a file in `src/CV/`.
 # That keeps your existing `\input{../DB/...}` includes working.
 $out_dir = '../../build';
 $pdf_dir = '../../out';

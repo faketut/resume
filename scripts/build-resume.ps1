@@ -1,10 +1,10 @@
 <#
 .SYNOPSIS
-  Builds every standalone .tex entrypoint under resume/src/CV.
+  Builds every standalone .tex entrypoint under src/CV.
 
 .DESCRIPTION
-  Runs latexmk with repo-root .latexmkrc (aux -> resume/build; PDFs normally -> resume/out).
-  After all builds: moves any .pdf still under resume/build into resume/out, then clears resume/build; keeps only .pdf under resume/out; strips stray aux files next to .tex under CV if any.
+  Runs latexmk with repo-root .latexmkrc (aux -> build/; PDFs normally -> out/).
+  After all builds: moves any .pdf still under build/ into out/, then clears build/; keeps only .pdf under out/; strips stray aux files next to .tex under CV if any.
 #>
 
 $ErrorActionPreference = 'Stop'
@@ -33,7 +33,7 @@ function Remove-NonPdfFiles([string]$directory) {
 }
 
 function Clear-BuildDirectory([string]$buildDirPath) {
-  # After PDFs are moved to resume/out, remove the whole build tree (aux/intermediate).
+  # After PDFs are moved to out/, remove the whole build tree (aux/intermediate).
   if (Test-Path -LiteralPath $buildDirPath) {
     Remove-Item -LiteralPath $buildDirPath -Recurse -Force -ErrorAction SilentlyContinue
   }
@@ -53,9 +53,9 @@ Require-Command 'latexmk'
 $root = Resolve-Path (Join-Path $PSScriptRoot '..')
 Set-Location $root
 
-New-Item -ItemType Directory -Force -Path 'resume/build', 'resume/out' | Out-Null
+New-Item -ItemType Directory -Force -Path 'build', 'out' | Out-Null
 
-$cvDir = Join-Path $root 'resume/src/CV'
+$cvDir = Join-Path $root 'src/CV'
 $targets =
   Get-ChildItem -LiteralPath $cvDir -Filter '*.tex' -File |
     Sort-Object Name |
@@ -65,8 +65,8 @@ if ($targets.Count -eq 0) {
   throw "No .tex files found under $cvDir"
 }
 
-$buildDir = Join-Path $root 'resume/build'
-$outDir = Join-Path $root 'resume/out'
+$buildDir = Join-Path $root 'build'
+$outDir = Join-Path $root 'out'
 
 foreach ($t in $targets) {
   Write-Host "Building $t"
@@ -78,4 +78,4 @@ Remove-NonPdfFiles $outDir
 Clear-BuildDirectory $buildDir
 Remove-CvFolderArtifacts $cvDir
 
-Write-Host "Done. PDFs are in resume/out/ (build dir cleared; non-PDF files removed from out)."
+Write-Host "Done. PDFs are in out/ (build dir cleared; non-PDF files removed from out)."

@@ -19,5 +19,5 @@ Thumbs.db
 **/*.xdv
 
 # Build/output directories
-resume/build/
+build/
 
