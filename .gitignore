@@ -1,23 +1,6 @@
 .DS_Store
 Thumbs.db
 
-# LaTeX build artifacts
-**/*.aux
-**/*.bbl
-**/*.bcf
-**/*.blg
-**/*.fdb_latexmk
-**/*.fls
-**/*.lof
-**/*.lot
-**/*.log
-**/*.out
-**/*.run.xml
-**/*.synctex.gz
-**/*.synctex.gz.*
-**/*.toc
-**/*.xdv
-
-# Build/output directories
-build/
-
+data/*
+notes/companies/*
+referral/*
