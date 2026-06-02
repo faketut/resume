@@ -1,0 +1,1 @@
+typst compile --root src src/cv/<resume-name>.typ out/<resume-name>.pdf
