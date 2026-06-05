@@ -26,6 +26,8 @@
 #include "../sections/experience/en/analyst-uwfintech.typ"
 #include "../sections/experience/en/director-uxr.typ"
 
+#section-break()
+
 = Activities
 #include "../sections/common/activ4finance.typ"
 

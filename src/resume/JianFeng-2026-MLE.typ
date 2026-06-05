@@ -28,6 +28,12 @@
 #include "../sections/projects/en/GhostPilot.typ"
 #gap()
 #include "../sections/projects/en/MiniKV.typ"
+#gap()
+#include "../sections/projects/en/Anchor.typ"
+#gap()
+#include "../sections/projects/en/ChefCopilot.typ"
+#gap()
+#include "../sections/projects/en/CabStream_ETL.typ"
 
 #section-break()
 

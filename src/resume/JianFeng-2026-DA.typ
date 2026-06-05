@@ -26,6 +26,7 @@
 #include "../sections/projects/en/CabStream_ETL.typ"
 #gap()
 #include "../sections/projects/en/MiniKV.typ"
+#gap()
 
 #section-break()
 
@@ -33,5 +34,7 @@
 #include "../sections/certifications/en/coursera-da.typ"
 
 *Skills*: Python, SQL, C\#,
-PostgreSQL, MySQL, MongoDB, Redis,
-AWS, GCP, Azure, Docker, Kubernetes
+PostgreSQL, MySQL, MongoDB,
+AWS, GCP, Azure, Docker, Kubernetes,
+Power BI, Tableau, Excel,
+

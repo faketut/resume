@@ -26,6 +26,11 @@
 #include "../sections/projects/en/CabStream_ETL.typ"
 #gap()
 #include "../sections/projects/en/MiniKV.typ"
+#gap()
+#include "../sections/projects/en/ArmyOfSafeguard.typ"
+#gap()
+#include "../sections/projects/en/Anchor.typ"
+#gap()
 
 #section-break()
 
@@ -34,4 +39,6 @@
 
 *Skills*: Python, SQL, C\#,
 PostgreSQL, MySQL, MongoDB, Redis,
-AWS, GCP, Azure, Docker, Kubernetes
+AWS, GCP, Azure, Docker, Kubernetes,
+Airflow, dbt, Power BI, Tableau, Excel,
+
