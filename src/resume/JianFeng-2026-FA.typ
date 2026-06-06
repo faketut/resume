@@ -36,6 +36,8 @@
 = Projects
 #include "../sections/projects/en/qmj-tsx.typ"
 #gap()
+#include "../sections/projects/en/schl-take-private-lbo.typ"
+#gap()
 #include "../sections/projects/en/audited-pa.typ"
 
 #section-break()
