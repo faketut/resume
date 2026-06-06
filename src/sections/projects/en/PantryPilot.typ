@@ -1,5 +1,5 @@
 #import "../../../template.typ": project
 
 #project("PantryPilot", url: "https://github.com/faketut/PantryPilot")
-- FastAPI + Google ADK agent on MongoDB Atlas prioritises near-expiry pantry items when planning meals — zero-effort food-waste loop.
-- Dual MCP sidecars: `mongodb-mcp-server` exposes Atlas for queries; `@brightdata/mcp` scrapes any retailer URL for grocery import.
+- FastAPI + MongoDB Atlas pantry; Bright Data MCP scrapes grocery URLs into Gemini structured extraction; Gemini Vision OCRs receipts with live waste metrics.
+- Google ADK meal-planner agent prioritizes near-expiry items via a dual MCP sidecar (`mongodb-mcp-server` + `@brightdata/mcp`); HTMX frontend, Python 3.13 + uv.

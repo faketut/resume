@@ -1,5 +1,5 @@
 #import "../../../template.typ": project
 
-#project("ExitLens", date: "Tencent AI-HR 2026", url: "https://github.com/faketut/ExitLens")
-- Next.js + TS exit-interview tool: six-stage motivational-interviewing FSM with per-stage prompts that anonymise and surface reasons.
-- HR insights dashboard aggregates conversations into themes; `Dockerfile` + `cloudbaserc.json` one-command CloudBase + CloudStudio.
+#project("ExitLens", url: "https://github.com/faketut/ExitLens")
+- Six-stage motivational-interview chat streams over a state machine; multi-LLM fallback chain (OpenAI → Anthropic → DeepSeek → Gemini) auto-selects whichever is live.
+- Next.js landing/interview/chat/dashboard surfaces aggregated HR insights; Dockerized for Tencent CloudBase deployment. Tencent AI-HR 2026 entry.

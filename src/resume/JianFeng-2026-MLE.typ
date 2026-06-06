@@ -1,4 +1,4 @@
-#import "../template.typ": resume-defaults, gap, section-break
+#import "../template.typ": resume-defaults, gap, section-break, tight
 
 #show: resume-defaults
 
@@ -40,10 +40,12 @@
 = Certificates & Skills
 #include "../sections/certifications/en/coursera-mle.typ"
 
-*Skills*: Python, SQL, C\#, C++, Java, Git, Go, Kotlin, JavaScript,
-Linux, Windows, MacOS,
-.Net, Spring Boot, React, Node.js, Express.js, Flask,
-PostgreSQL, MySQL, MongoDB, Redis,
-AWS, GCP, Azure, Docker, Kubernetes, Terraform, GitHub Actions,
-Jira, Confluence,
-PyTorch, TensorFlow, Scikit-learn, OpenCV, GenAI tools
+#tight[
+  *Skills*: Python, SQL, C\#, C++, Java, Git, Go, Kotlin, JavaScript,
+  Linux, Windows, MacOS,
+  .Net, Spring Boot, React, Node.js, Express.js, Flask,
+  PostgreSQL, MySQL, MongoDB, Redis,
+  AWS, GCP, Azure, Docker, Kubernetes, Terraform, GitHub Actions,
+  Jira, Confluence,
+  PyTorch, TensorFlow, Scikit-learn, OpenCV, GenAI tools
+]

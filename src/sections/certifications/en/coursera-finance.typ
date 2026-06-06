@@ -1,1 +1,5 @@
-*Coursera*: ADP Payroll, Duke Data Engineering, Google Data Analytics, Google Digital Marketing & E-commerce, Google IT Support, IBM AI for Cybersecurity, Intuit Bookkeeping, SAP Technology Consultant, SAS Time Series and Sequential Data Analysis, Stanford Machine Learning, TUM Cost Accounting, UCI Blockchain, UCI Database Design & Operational BI, UPenn Finance & Quantitative Modeling, UVA Business Strategy, UVA Pricing Strategy Optimization, Yonsei Valuation and Financial Analysis for Startups, UCSC Bayesian Statistics
+#import "../../../template.typ": tight
+
+#tight[
+  *Coursera*: ADP Payroll, Duke Data Engineering, Google Data Analytics, Google Digital Marketing & E-commerce, Google IT Support, IBM AI for Cybersecurity, Intuit Bookkeeping, SAP Technology Consultant, SAS Time Series and Sequential Data Analysis, Stanford Machine Learning, TUM Cost Accounting, UCI Blockchain, UCI Database Design & Operational BI, UPenn Finance & Quantitative Modeling, UVA Business Strategy, UVA Pricing Strategy Optimization, Yonsei Valuation and Financial Analysis for Startups, UCSC Bayesian Statistics
+]

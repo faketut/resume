@@ -25,8 +25,15 @@
 = Projects
 #include "../sections/projects/en/CabStream_ETL.typ"
 #gap()
-#include "../sections/projects/en/MiniKV.typ"
+#include "../sections/projects/en/qmj-tsx.typ"
 #gap()
+#include "../sections/projects/en/audited-pa.typ"
+
+#section-break()
+
+= Organizations
+#include "../sections/experience/en/analyst-uwfintech.typ"
+#include "../sections/experience/en/director-uxr.typ"
 
 #section-break()
 

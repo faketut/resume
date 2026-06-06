@@ -1,4 +1,4 @@
-#import "../template.typ": resume-defaults, gap, section-break
+#import "../template.typ": resume-defaults, gap, section-break, tight
 
 #show: resume-defaults
 
@@ -33,10 +33,19 @@
 
 #section-break()
 
+= Projects
+#include "../sections/projects/en/qmj-tsx.typ"
+#gap()
+#include "../sections/projects/en/audited-pa.typ"
+
+#section-break()
+
 = Certificates & Skills
 #include "../sections/certifications/en/coursera-finance.typ"
 
-*Skills*:
-Excel, Word, PowerPoint, Power Automate, Power BI, Tableau, SQL, SAP, Python, Bloomberg Terminal,
-Financial Modeling, Valuation, GAAP/IFRS,
-GenAI tools
+#tight[
+  *Skills*:
+  Excel, Word, PowerPoint, Power Automate, Power BI, Tableau, SQL, SAP, Python, Bloomberg Terminal,
+  Financial Modeling, Valuation, GAAP/IFRS,
+  GenAI tools
+]
