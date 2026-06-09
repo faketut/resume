@@ -28,6 +28,8 @@
 #include "../sections/projects/en/qmj-tsx.typ"
 #gap()
 #include "../sections/projects/en/audited-pa.typ"
+#gap()
+#include "../sections/projects/en/ArmyOfSafeguard.typ"
 
 #section-break()
 
