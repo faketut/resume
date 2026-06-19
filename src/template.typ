@@ -4,10 +4,10 @@
 
 // Apply standard resume page + text settings via a show rule.
 #let resume-defaults(body) = {
-  set page(paper: "us-letter", margin: (top: 0.2cm, bottom: 0.01cm, left: 0.8cm, right: 0.8cm))
+  set page(paper: "us-letter", margin: (top: 0.2cm, bottom: 0.01cm, left: 0.5cm, right: 0.5cm))
   set text(font: "Charter", size: 9pt, fill: black)
   set par(leading: 0.55em, spacing: 0.40em)
-  set list(indent: 0pt, body-indent: 7pt, spacing: 1pt)
+  set list(indent: 0pt, body-indent: 4pt, spacing: 1pt)
   // Tight leading inside bullets (affects wrapped lines within a single item).
   show list: set par(leading: 0em)
   show heading.where(level: 1): it => block(width: 100%, above: 0.05cm, below: 0pt)[
@@ -22,10 +22,10 @@
 
 // Chinese variant — smaller text, Noto Sans CJK for CJK glyphs.
 #let resume-defaults-cn(body) = {
-  set page(paper: "us-letter", margin: (top: 0.2cm, bottom: 0.01cm, left: 0.8cm, right: 0.8cm))
+  set page(paper: "us-letter", margin: (top: 0.2cm, bottom: 0.01cm, left: 0.5cm, right: 0.5cm))
   set text(font: ("Charter", "Noto Sans CJK SC"), size: 8pt, fill: black)
   set par(leading: 0.50em, spacing: 0.40em)
-  set list(indent: 0pt, body-indent: 7pt, spacing: 2pt)
+  set list(indent: 0pt, body-indent: 4pt, spacing: 2pt)
 
   // Tight leading inside bullets (affects wrapped lines within a single item).
   show list: set par(leading: 0.35em)

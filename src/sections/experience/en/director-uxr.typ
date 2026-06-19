@@ -1,5 +1,6 @@
 #import "../../../template.typ": entry
 
-#entry("UX Research Hub", "Director", "09/2024 – present")
-- Secured 100% external sponsorship and booked a Google UXR keynote speaker, delivering flagship programming at \$0 cost to the club.
-- Negotiated a cross-promotion partnership with the TikTok student chapter, expanding event reach and growing shared audience.
+#entry("UX Research Hub", "Director", "09/2025 – 04/2026")
+- Grew the club from 10 to 318 members during tenure via flagship programming and cross-campus partnerships.
+- Booked a Google UXR keynote with 100% external sponsorship (\$0 club cost); \~50 attendees left with concrete portfolio and interview-prep takeaways.
+- Negotiated a cross-promotion partnership with the TikTok student chapter that drove sustained inbound member growth and co-hosted reach.
