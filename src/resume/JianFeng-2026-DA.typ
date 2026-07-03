@@ -1,4 +1,4 @@
-#import "../template.typ": resume-defaults, gap, section-break
+#import "../template.typ": resume-defaults, gap, section-break, tight
 
 #show: resume-defaults
 
@@ -42,8 +42,9 @@
 = Certificates & Skills
 #include "../sections/certifications/en/coursera-da.typ"
 
+#tight[
 *Skills*: Python, SQL, C\#,
 PostgreSQL, MySQL, MongoDB,
 AWS, GCP, Azure, Docker, Kubernetes,
 Power BI, Tableau, Excel,
-
+]

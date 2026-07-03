@@ -37,15 +37,20 @@
 
 #section-break()
 
+= Organizations
+#include "../sections/experience/en/director-uxr.typ"
+
+#section-break()
+
 = Certificates & Skills
 #include "../sections/certifications/en/coursera-mle.typ"
 
 #tight[
   *Skills*: Python, SQL, C\#, C++, Java, Git, Go, Kotlin, JavaScript,
   Linux, Windows, MacOS,
-  .Net, Spring Boot, React, Node.js, Express.js, Flask,
+  .Net, React, Node.js, Flask,
   PostgreSQL, MySQL, MongoDB, Redis,
   AWS, GCP, Azure, Docker, Kubernetes, Terraform, GitHub Actions,
   Jira, Confluence,
-  PyTorch, TensorFlow, Scikit-learn, OpenCV, GenAI tools
+  PyTorch, TensorFlow, Scikit-learn, OpenCV, pandas, Microsoft Agent Framework
 ]

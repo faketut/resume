@@ -1,4 +1,4 @@
-#import "../template.typ": resume-defaults, gap, section-break
+#import "../template.typ": resume-defaults, gap, section-break, tight
 
 #show: resume-defaults
 
@@ -29,19 +29,21 @@
 #gap()
 #include "../sections/projects/en/Syncle.typ"
 #gap()
-#include "../sections/projects/en/WeAgree.typ"
-#gap()
 #include "../sections/projects/en/Anchor.typ"
 #gap()
-#include "../sections/projects/en/ChefCopilot.typ"
-#gap()
 #include "../sections/projects/en/CabStream_ETL.typ"
+
+#section-break()
+
+= Organizations
+#include "../sections/experience/en/director-uxr.typ"
 
 #section-break()
 
 = Certificates & Skills
 #include "../sections/certifications/en/coursera-se.typ"
 
+#tight[
 *Skills*: Python, SQL, C\#, C++, Java, Git, Go, Kotlin, JavaScript,
 Linux, Windows, MacOS,
 .Net, Spring Boot, React, Node.js, Express.js, Flask,
@@ -49,3 +51,4 @@ PostgreSQL, MySQL, MongoDB, Redis,
 AWS, GCP, Azure, Docker, Kubernetes, Terraform, GitHub Actions,
 Jira, Confluence,
 PyTorch, TensorFlow, Scikit-learn, OpenCV, GenAI tools
+]
