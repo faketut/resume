@@ -1,5 +1,1 @@
-#import "../../../template.typ": tight
-
-#tight[
-  *Coursera*: Duke Data Engineering, IBM Vector Database, UCI Database Design & Operational BI, IBM AI for Cybersecurity, Stanford Machine Learning, UCI Mathematics for ML, UCSC Bayesian Statistics, Rice Parallel-Concurrent-Distributed Programming, UA Reinforcement Learning
-]
+Duke Data Engineering, IBM Vector Database, UCI Database Design & Operational BI, IBM AI for Cybersecurity, Stanford Machine Learning, UCI Mathematics for ML, UCSC Bayesian Statistics, Rice Parallel-Concurrent-Distributed Programming, UA Reinforcement Learning

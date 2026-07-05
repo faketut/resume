@@ -1,17 +1,13 @@
-#import "../template.typ": resume-defaults, gap, section-break
+#import "../template.typ": resume-defaults, gap, section-break, tight, fit-resume
 
 #show: resume-defaults
 
-#include "../header.typ"
+#fit-resume(
+  include "../header.typ",
+  [
+    #section-break()
 
-#section-break()
-
-= Education
-#include "../sections/common/edu.typ"
-
-#section-break()
-
-= Experience
+    = Employment
 #include "../sections/experience/en/coop-manulife.typ"
 #gap()
 #include "../sections/experience/en/coop-tbs.typ"
@@ -22,24 +18,28 @@
 
 #section-break()
 
-= Organizations
-#include "../sections/experience/en/analyst-uwfintech.typ"
-#include "../sections/experience/en/director-uxr.typ"
+= Education
+#include "../sections/common/edu.typ"
+- Certifications: #include "../sections/certifications/en/coursera-pm.typ"
 
 #section-break()
 
-= Projects
+= Personal Projects
 #include "../sections/projects/en/GhostPilot.typ"
 
 #section-break()
 
-= Certificates & Skills
-#include "../sections/certifications/en/coursera-pm.typ"
+= Technolgy
 
-*Skills*: Python, SQL, C\#, C++, Java, Git, Go, Kotlin, JavaScript,
+#set terms(separator: h(6pt), hanging-indent: 78pt)
+#tight[
+Python, SQL, C\#, C++, Java, Git, Go, Kotlin, JavaScript,
 Linux, Windows, MacOS,
 .Net, Spring Boot, React, Node.js, Express.js, Flask,
 PostgreSQL, MySQL, MongoDB, Redis,
 AWS, GCP, Azure, Docker, Kubernetes, Terraform, GitHub Actions,
 Jira, Confluence,
 PyTorch, TensorFlow, Scikit-learn, OpenCV, GenAI tools
+]
+  ],
+)

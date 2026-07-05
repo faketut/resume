@@ -52,6 +52,29 @@
   )
 }
 
+/// A: bold company / organisation name.
+#let org(name) = [*#name*]
+
+/// B: role row — role on left, year range on right.
+/// end = ""  → "start –    " (4-char-wide blank placeholder, for ongoing roles)
+/// end = start → single year
+/// otherwise  → "start – end"
+#let position(role, start, end) = {
+  let date-label = if end == "" {
+    [#start – #box(width: 2.2em)]
+  } else if str(start) == str(end) {
+    [#start]
+  } else {
+    [#start – #end]
+  }
+  grid(
+    columns: (1fr, auto),
+    gutter: 0pt,
+    role,
+    align(right, date-label),
+  )
+}
+
 /// Project entry with optional URL.
 #let project(name, date: "", url: "") = {
   let label = if url != "" { [#link(url)[*#name*]] } else { [*#name*] }
@@ -62,6 +85,19 @@
     align(right, date),
   )
 }
+
+/// Dynamically fit header + sections onto one page.
+/// Measures both blocks, then places (slack / 2) of vertical whitespace above
+/// the header so content is vertically centred; when the page is full the
+/// padding collapses to zero and nothing overflows.
+#let fit-resume(header-content, sections-content) = layout(size => context {
+  let hh = measure(header-content).height
+  let sh = measure(sections-content).height
+  let top-pad = calc.max(0pt, (size.height - hh - sh) / 2)
+  v(top-pad)
+  header-content
+  sections-content
+})
 
 /// Section gap — use between entries within a section.
 #let gap() = v(2pt)

@@ -1,4 +1,5 @@
-#import "../../../template.typ": entry
+#import "../../../template.typ": org, position
 
-#entry("Manulife", "带薪实习", "04/2026 – 08/2026")
+#org("Manulife")
+#position("带薪实习", "2026", "2026")
 - 待更新

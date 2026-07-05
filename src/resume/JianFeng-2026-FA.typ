@@ -1,17 +1,13 @@
-#import "../template.typ": resume-defaults, gap, section-break, tight
+#import "../template.typ": resume-defaults, gap, section-break, tight, fit-resume
 
 #show: resume-defaults
 
-#include "../header.typ"
+#fit-resume(
+  include "../header.typ",
+  [
+    #section-break()
 
-#section-break()
-
-= Education
-#include "../sections/common/edu.typ"
-
-#section-break()
-
-= Experience
+    = Employment
 #include "../sections/experience/en/coop-manulife.typ"
 #gap()
 #include "../sections/experience/en/coop-tbs.typ"
@@ -22,18 +18,13 @@
 
 #section-break()
 
-= Organizations
-#include "../sections/experience/en/analyst-uwfintech.typ"
-#include "../sections/experience/en/director-uxr.typ"
+= Education
+#include "../sections/common/edu.typ"
+- Certifications: #include "../sections/certifications/en/coursera-finance.typ"
 
 #section-break()
 
-= Activities
-#include "../sections/common/activ4finance.typ"
-
-#section-break()
-
-= Projects
+= Personal Projects
 #include "../sections/projects/en/qmj-tsx.typ"
 #gap()
 #include "../sections/projects/en/schl-take-private-lbo.typ"
@@ -42,12 +33,13 @@
 
 #section-break()
 
-= Certificates & Skills
-#include "../sections/certifications/en/coursera-finance.typ"
+= Technolgy
 
+#set terms(separator: h(6pt), hanging-indent: 78pt)
 #tight[
-  *Skills*:
-  Excel, Word, PowerPoint, Power Automate, Power BI, Tableau, SQL, SAP, Python, Bloomberg Terminal,
-  Financial Modeling, Valuation, GAAP/IFRS,
-  GenAI tools
+Excel, Word, PowerPoint, Power Automate, Power BI, Tableau, SQL, SAP, Python, Bloomberg Terminal,
+Financial Modeling, Valuation, GAAP/IFRS,
+GenAI tools
 ]
+  ],
+)

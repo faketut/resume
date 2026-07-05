@@ -1,4 +1,5 @@
-#import "../../../template.typ": entry
+#import "../../../template.typ": org, position
 
-#entry("UW Fintech", "Analyst", "10/2025 – present")
+#org("UW Fintech")
+#position("Analyst", "2025", "present")
 - Authored monthly macro, sector, and single-name reports for a 50-member analyst program; surfaced trade-idea candidates that anchored club debate.

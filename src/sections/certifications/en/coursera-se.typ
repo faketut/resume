@@ -1,5 +1,2 @@
-#import "../../../template.typ": tight
+IBM Vector Database, Stanford Machine Learning, UCI Database Design & Operational BI, Rice Parallel-Concurrent-Distributed Programming, UA Reinforcement Learning
 
-#tight[
-  *Coursera*: IBM Vector Database, Stanford Machine Learning, UCI Database Design & Operational BI, Rice Parallel-Concurrent-Distributed Programming, UA Reinforcement Learning
-]
