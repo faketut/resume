@@ -33,13 +33,13 @@
 
 #section-break()
 
-= Technolgy
+= Skills
 
 #set terms(separator: h(6pt), hanging-indent: 78pt)
 #tight[
 Excel, Word, PowerPoint, Power Automate, Power BI, Tableau, SQL, SAP, Python, Bloomberg Terminal,
 Financial Modeling, Valuation, GAAP/IFRS,
-GenAI tools
+Reconciliation, DCF modeling, IFRS 16, FP&A, 
 ]
   ],
 )

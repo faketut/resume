@@ -37,7 +37,7 @@
 
 #section-break()
 
-= Technolgy
+= Skills
 
 #set terms(separator: h(6pt), hanging-indent: 78pt)
 #tight[
