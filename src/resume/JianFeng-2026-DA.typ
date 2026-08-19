@@ -40,9 +40,11 @@
 #set terms(separator: h(6pt), hanging-indent: 78pt)
 #tight[
 Python, SQL, C\#,
-PostgreSQL, MySQL, MongoDB,
-AWS, GCP, Azure, Docker, Kubernetes,
-Power BI, Tableau, Excel,
+PostgreSQL, MySQL, MongoDB, BigQuery, Parquet,
+AWS, GCP, Azure, Docker, Kubernetes, Terraform,
+dbt, Airflow,
+Power BI, Tableau, Power Apps, Excel,
+Git, Statistics, Foundry,
 ]
   ],
 )
