@@ -1,7 +1,6 @@
-#import "../../../template.typ": org, position
+#import "../../../template.typ": subheading
 
-#org("Manulife Financial Corporation")
-#position("Co-op", "2026", "")
-- Built reusable pre-validation & skip-on-failure pattern across ServiceNow catalog task workflows (APIM, AKS, EMU onboarding), eliminating manual error handling and enabling safe async orchestration.
-- Migrated SNOW orchestrator from basic auth to GitHub App token authentication via PyGithub, enabling secure mfc-ets team validation with audit-trail compliance across catalog automation.
-- Enhanced GOCC orchestrator with Kubernetes command integration for live AKS cert-SAN verification, enabling the Foundry LLM agent to validate gitops PRs against cluster state and catch misconfigs before prod.
+#subheading("Manulife Financial Corporation", "Software Engineer", "May 2026 – Aug 2026", "Toronto, ON, Canada")
+- Architected a reusable pre-validation and skip-on-failure execution pattern across enterprise ServiceNow catalog task workflows; eliminated manual exception handling overhead and enabled resilient, non-blocking asynchronous orchestration for global 1k+ daily cross-system operations.
+- Migrated the SNOW orchestrator core from legacy basic authentication to secure GitHub App token exchange via PyGithub; established strict mfc-ets team-level validation, automated permission scopes, and end-to-end audit-trail compliance across catalog automations.
+- Enhanced the GOCC orchestrator with live Kubernetes cluster command integration for real-time AKS cert-SAN verification; empowered the Foundry LLM agent to automatically cross-examine GitOps pull requests against live cluster states, successfully catching misconfigurations prior to production deployment.

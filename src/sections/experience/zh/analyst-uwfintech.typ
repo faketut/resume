@@ -1,6 +1,5 @@
-#import "../../../template.typ": org, position
+#import "../../../template.typ": subheading
 
-#org("UW Fintech")
-#position("分析师", "2025", "present")
+#subheading("UW Fintech", "分析师", "2025 – present", location: "Waterloo, ON")
 - 撰写行业策略报告，分析金融科技中 AI/ML 的演进趋势，区分周期性增长与投机泡沫，并据此评估市场结构、定价能力与流动性风险。
 - 对比生成式 AI 与传统机器学习在金融场景中的运营差异，梳理模型工程与合规所需关键人才与能力，以应对新兴监管风险。

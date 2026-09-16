@@ -1,5 +1,4 @@
-#import "../../../template.typ": org, position
+#import "../../../template.typ": subheading
 
-#org("Manulife")
-#position("带薪实习", "2026", "2026")
+#subheading("Manulife", "带薪实习", "2026", location: "Toronto, ON")
 - 待更新
