@@ -8,33 +8,24 @@
 = Skills
 #skills((
   ("Languages", [Python, C/C++, Java, C\#,Go, Bash, Typescript, Javascript, SQL, R]),
-  ("AI/ML", [PyTorch, TensorFlow, Hugging Face, LangChain, LangGraph, scikit-learn, Microsoft Agent Framework, OpenCV, pandas]),
-  ("Pipelines", [Airflow, dbt]),
+  ("AI/ML", [PyTorch, TensorFlow, LangChain, LangGraph, scikit-learn, Microsoft Agent Framework, OpenCV, pandas]),
   ("BI & Reporting", [Power BI, Tableau, Power Apps, Excel]),
   ("Tools", [Excel, Word, PowerPoint, Power Automate, Power BI, Tableau, SAP, Bloomberg Terminal]),
-  ("Financial Analysis", [Financial Modeling, Valuation, DCF modeling, FP&A]),
-  ("Accounting", [GAAP/IFRS, Reconciliation, IFRS 16]),
   ("Databases", [PostgreSQL, MySQL, MongoDB, Redis]),
   ("Cloud & DevOps", [AWS, GCP, Azure, Docker, K8s, Terraform, GitHub Actions, Linux, Jenkins]),
   ("Tools", [Git, Jira, Confluence])
 ))
 
 = Experience
-#include "../sections/experience/en/coop-manulife.typ"
+#include "../sections/experience/en/coop-manulife-fin.typ"
 #gap()
-#include "../sections/experience/en/coop-tbs.typ"
+#include "../sections/experience/en/coop-tbs-fin.typ"
 #gap()
 #include "../sections/experience/en/intern-tiptop.typ"
 #gap()
-#include "../sections/experience/en/coop-lansi.typ"
+#include "../sections/experience/en/coop-lansi-fin.typ"
 #gap()
 #include "../sections/experience/en/intern-sanyang.typ"
-= Projects
-#include "../sections/projects/en/CabStream_ETL.typ"
-#gap()
-#include "../sections/projects/en/qmj-tsx.typ"
-#gap()
-#include "../sections/projects/en/audited-pa.typ"
 
 = Achievements
 - Scaled UX Research Hub 32× (10→318 members) as Director; negotiated Google UXR keynote at \$0 cost and brokered TikTok chapter cross-promotion for sustained recruitment growth.

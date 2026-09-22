@@ -1,6 +1,6 @@
 #import "../../../template.typ": subheading
 
 #subheading("Guangdong Tiptop Asset Management Co., Ltd.", "Analyst", "Jan 2025 – Apr 2025", "Guangdong, China")
-- Built proprietary long screen on earnings quality, moat, and capex discipline; shortlisted BSE small-caps that fed the desk's weekly idea review.
-- 3-statement + DCF on Audiowell (BSE: 920491, ¥3.5B mcap, 27% rev CAGR '22–'24); WACC × exit sensitivity framed an asymmetric base/bear IRR for the desk.
-- Authored market-entry thesis on Hunan Smartcxi (commercial-kitchen EaaS): sized ¥50–200B TAM with labor-inflation + chain-penetration tailwinds.
+- Engineered a proprietary quantitative screening model analyzing 500+ BSE equities for earnings quality and capex discipline; delivered high-conviction targets to portfolio managers, directly driving strategy for weekly revenue-generating investment reviews.
+- Constructed a dynamic 3-statement and DCF valuation model for Audiowell ¥3.5B mcap, deeply analyzing its 27% historical revenue CAGR and B2B customer acquisition efficiency; modeled WACC and exit sensitivities to frame asymmetric base/bear IRRs, guiding a ¥50M+ prospective capital allocation.
+- Authored a comprehensive strategic market-entry thesis on a commercial-kitchen Equipment-as-a-Service (EaaS) business; sized a ¥50B–200B TAM driven by customer chain-penetration and macroeconomic tailwinds, validating a highly scalable, recurring revenue model for institutional investment.

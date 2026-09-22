@@ -12,25 +12,21 @@
   ("Tools", [Excel, Word, PowerPoint, Power Automate, Power BI, Tableau, SAP, Bloomberg Terminal]),
   ("Financial Analysis", [Financial Modeling, Valuation, DCF modeling, FP&A]),
   ("Accounting", [GAAP/IFRS, Reconciliation, IFRS 16]),
-  ("AI/ML", [PyTorch, TensorFlow, Hugging Face, LangChain, LangGraph, scikit-learn, Microsoft Agent Framework, OpenCV, pandas]),
+  ("AI/ML", [PyTorch, TensorFlow, LangChain, LangGraph, scikit-learn, Microsoft Agent Framework, OpenCV, pandas]),
   ("Databases", [PostgreSQL, MySQL, MongoDB, Redis])
 ))
 = Experience
-#include "../sections/experience/en/coop-manulife.typ"
+#include "../sections/experience/en/coop-manulife-fin.typ"
 #gap()
-#include "../sections/experience/en/coop-tbs.typ"
+#include "../sections/experience/en/coop-tbs-fin.typ"
 #gap()
 #include "../sections/experience/en/intern-tiptop.typ"
 #gap()
-#include "../sections/experience/en/coop-lansi.typ"
+#include "../sections/experience/en/coop-lansi-fin.typ"
 
 
 = Projects
 #include "../sections/projects/en/qmj-tsx.typ"
-#gap()
-#include "../sections/projects/en/schl-take-private-lbo.typ"
-#gap()
-#include "../sections/projects/en/audited-pa.typ"
 
 = Achievements
 - Scaled UX Research Hub 32× (10→318 members) as Director; negotiated Google UXR keynote at \$0 cost and brokered TikTok chapter cross-promotion for sustained recruitment growth.

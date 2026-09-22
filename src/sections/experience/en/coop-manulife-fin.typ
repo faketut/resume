@@ -1,0 +1,6 @@
+#import "../../../template.typ": subheading
+
+#subheading("Manulife Financial Corporation", "Software Engineer", "May 2026 – Aug 2026", "Toronto, ON, Canada")
+- Spearheaded the product strategy for an enterprise orchestration platform servicing over 10K global internal customers; automated 1K+ daily operations, eliminating 100% of manual processing and accelerating time-to-market for revenue-generating financial applications by an estimated 30%.
+- Mitigated institutional security risks and ensured financial-grade compliance by overhauling the authentication architecture; designed fault-tolerant workflows that eliminated operational bottlenecks and saved approximately 400+ hours of engineering labor monthly.
+- Pioneered an AI-driven risk management initiative by integrating LLMs to proactively detect cloud deployment misconfigurations; intercepted 95% of unauthorized GitOps drifts, preventing potential service outages and safeguarding continuous revenue streams from end-customer transactions.

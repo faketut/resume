@@ -8,7 +8,7 @@
 #include "../sections/common/edu.typ"
 = Skills
 #skills((
-  ("Languages", [Python, C/C++, Java, C\#, Go, Bash, Typescript, Javascript, SQL, R]),
+  ("Languages", [Python, C/C++, Java, C\#, Go, Bash, Typescript, Javascript, SQL, R, VBA]),
   ("AI/ML", [PyTorch, TensorFlow, Hugging Face, LangChain, LangGraph, scikit-learn, Microsoft Agent Framework, OpenCV, pandas]),
   ("Frameworks", [.Net, Spring Boot, React, Angular, Node.js, Flask, Rails, FastAPI]),
   ("Databases", [PostgreSQL, MySQL, MongoDB, Redis]),
@@ -26,15 +26,13 @@
 
 
 = Projects
-#include "../sections/projects/en/MiniKV.typ"
+#include "../sections/projects/en/SmartHandoff.typ"
 #gap()
-#include "../sections/projects/en/GhostPilot.typ"
+#include "../sections/projects/en/Cogniscope.typ"
 #gap()
-#include "../sections/projects/en/ArmyOfSafeguard.typ"
+#include "../sections/projects/en/AccessibilityAlly.typ"
 #gap()
-#include "../sections/projects/en/Anchor.typ"
-#gap()
-#include "../sections/projects/en/CabStream_ETL.typ"
+#include "../sections/projects/en/ExitLens.typ"
 
 = Achievements
 - Scaled UX Research Hub 32× (10→318 members) as Director; negotiated Google UXR keynote at \$0 cost and brokered TikTok chapter cross-promotion for sustained recruitment growth.

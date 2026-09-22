@@ -18,8 +18,8 @@
 
 // I would welcome the opportunity to discuss how my experience and skill set can support your team. Thank you for your time and consideration.
 
-I am drawn to Rundoo because you are tackling a massive, deeply unsexy problem—digitizing legacy operations for independent building material suppliers—with a pragmatic, full-stack product approach rather than superficial hype. From this role, I want to gain hands-on experience owning end-to-end features in a fast-paced environment, building high-performance Go and TypeScript systems that directly remove friction for real-world businesses, while working alongside a tight-knit engineering team where every line of code immediately moves the needle.
- 
+As a third-year Computer Science, Finance, and Statistics student at the University of Waterloo, I am highly motivated to bring my quantitative analytics and rigorous software development skills to the ETF Trading desk at TD Securities. My background bridges hands-on financial modeling—including financial statement analysis and asset management at Guangdong Tiptop Asset Management—with advanced data engineering. Specifically, my proprietary project qmj-tsx directly showcases my ability to operate under pressure and apply programming logic to financial markets; I replicated Asness QMJ factors on TSX small-caps, engineering robust Parquet pipelines and executing Newey–West regressions using Python. Additionally, my enterprise software engineering experience at Manulife and the Treasury Board Secretariat has sharpened my proficiency in writing optimized SQL, deploying code within Unix/Linux environments, and building components across multi-faceted infrastructure. Thriving in high-stakes environments where technical advances dictate execution, I am eager to leverage my software design skills, problem-solving dexterity, and deep passion for market microstructure to contribute directly to the profitability and fast-paced operations of TD’s Global Equity Derivatives team.
+
 Sincerely, \
 Jian Feng
 

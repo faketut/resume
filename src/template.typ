@@ -29,7 +29,7 @@
 
 // ── Type scale ───────────────────────────────────────────────────────────────
 #let text-font = "Libertinus Serif"
-#let body-size = pt(10)     // \small — bullets, down-left rows, skills, contact
+#let body-size = pt(12)     // \small — bullets, down-left rows, skills, contact
 #let body-pitch = pt(12)    // \baselineskip of \small text
 #let entry-size = pt(11)    // \normalsize — bold company row of an entry
 #let heading-size = pt(12)  // \large — section headings
