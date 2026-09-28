@@ -9,31 +9,24 @@
 = Skills
 #skills((
   ("Languages", [Python, C/C++, Java, C\#, Go, Bash, Typescript, Javascript, SQL, R, VBA]),
-  ("AI/ML", [PyTorch, TensorFlow, Hugging Face, LangChain, LangGraph, scikit-learn, Microsoft Agent Framework, OpenCV, pandas]),
-  ("Frameworks", [.Net, Spring Boot, React, Angular, Node.js, Flask, Rails, FastAPI]),
+  ("AI/ML", [PyTorch, TensorFlow, LangChain, LangGraph, scikit-learn, Microsoft Agent Framework, OpenCV, pandas]),
+  ("Frameworks", [.Net, Spring Boot, React, Angular, Node.js, Flask, Rails, FastAPI, iOS, Android]),
   ("Databases", [PostgreSQL, MySQL, MongoDB, Redis]),
   ("Cloud & DevOps", [AWS, GCP, Azure, Docker, K8s, Terraform, GitHub Actions, Linux, Jenkins]),
   ("Tools", [Git, Jira, Confluence])
 ))
 = Experience
-#include "../sections/experience/en/coop-manulife.typ"
+#include "../sections/experience/en/coop-manulife-fin.typ"
 #gap()
-#include "../sections/experience/en/coop-tbs.typ"
+#include "../sections/experience/en/coop-tbs-fin.typ"
 #gap()
-#include "../sections/experience/en/coop-lansi.typ"
+#include "../sections/experience/en/coop-lansi-fin.typ"
 #gap()
-#include "../sections/experience/en/intern-sanyang.typ"
+#include "../sections/experience/en/intern-sanyang-fin.typ"
 
 
 = Projects
-#include "../sections/projects/en/SmartHandoff.typ"
-#gap()
-#include "../sections/projects/en/Cogniscope.typ"
-#gap()
-#include "../sections/projects/en/AccessibilityAlly.typ"
-#gap()
-#include "../sections/projects/en/ExitLens.typ"
-
+#include "../sections/projects/en/ArmyOfSafeguard.typ"
 = Achievements
 - Scaled UX Research Hub 32× (10→318 members) as Director; negotiated Google UXR keynote at \$0 cost and brokered TikTok chapter cross-promotion for sustained recruitment growth.
 - Velocity Co-op Problem Award (top submission among co-op cohort); 3rd Place, SAF Investment Research Challenge; Finalist, SAF Strategy Case Competition, Moonshot Hackathon Winner 
