@@ -1,2 +1,2 @@
-IBM Vector Database, Stanford Machine Learning, UCI Database Design & Operational BI, Rice Parallel-Concurrent-Distributed Programming, UA Reinforcement Learning, Compiler, Algorithm, 
+Compiler Design, Algorithms, Parallel/Concurrent/Distributed Programming, Database Design & Operational BI
 

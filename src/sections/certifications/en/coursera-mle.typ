@@ -1,1 +1,1 @@
-Duke Data Engineering, IBM Vector Database, UCI Database Design & Operational BI, IBM AI for Cybersecurity, Stanford Machine Learning, UCI Mathematics for ML, UCSC Bayesian Statistics, Rice Parallel-Concurrent-Distributed Programming, UA Reinforcement Learning
+Stanford Machine Learning, UCI Mathematics for ML, UA Reinforcement Learning

@@ -1,6 +1,5 @@
 #import "../../../template.typ": project
 
 #project("GhostPilot")
-- Invisible Windows overlay streams WASAPI loopback audio through partial/final Azure ASR into a text LLM.
-- Alt+P vision path: Qt area capture → JPEG → vision LLM, result folded back into the text-LLM prompt.
-- Local RAG over `knowledge/` injects user-curated context so answers stay grounded across long sessions.
+- Built a Windows overlay that streams WASAPI loopback audio through Azure Speech partial and final transcription into a text LLM.
+- Added Alt+P region capture for vision prompts and local retrieval over user-curated knowledge files, grounding multimodal answers in session context.

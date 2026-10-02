@@ -7,12 +7,10 @@
 #include "../sections/common/edu.typ"
 = Skills
 #skills((
-  ("Languages", [Python, C/C++, Java, C\#,Go, Bash, Typescript, Javascript, SQL, R]),
-  ("AI/ML", [PyTorch, TensorFlow, LangChain, LangGraph, scikit-learn, Microsoft Agent Framework, OpenCV, pandas]),
-  ("BI & Pipeline", [Power BI, Tableau, Power Apps, Excel, Airflow, dbt]),
-  ("Tools", [Excel, Word, PowerPoint, Power Automate, Power BI, Tableau, SAP, Bloomberg Terminal]),
-  ("Databases & Tools", [PostgreSQL, MySQL, MongoDB, Redis, Git, Jira, Confluence]),
-  ("Cloud & DevOps", [AWS, GCP, Azure, Docker, K8s, Terraform, GitHub Actions, Linux, Jenkins])
+  ("Languages", [Python, R, SQL]),
+  ("Analytics", [pandas, scikit-learn, XGBoost, Time Series, Financial Modeling, DCF]),
+  ("BI & Reporting", [Excel, Power BI, Tableau]),
+  ("Data", [PostgreSQL, MySQL, dbt, Airflow, Bloomberg Terminal])
 ))
 
 = Experience
@@ -26,6 +24,12 @@
 #gap()
 #include "../sections/experience/en/intern-sanyang-fin.typ"
 
+= Projects
+#include "../sections/projects/en/qmj-tsx.typ"
+
 = Achievements
-- Scaled UX Research Hub 32× (10→318 members) as Director; negotiated Google UXR keynote at \$0 cost and brokered TikTok chapter cross-promotion for sustained recruitment growth.
-- Velocity Co-op Problem Award (top submission among co-op cohort); 3rd Place, SAF Investment Research Challenge; Finalist, SAF Strategy Case Competition, Moonshot Hackathon Winner 
+- 3rd Place, SAF Investment Research Challenge; Alpha FMC x CODE finalist, with a restructuring plan modeled to yield \$48K+ in potential savings.
+- Built budget tracking for a six-person UX Research Hub team, cutting planning time 40%; grew membership 32× (10→318).
+
+= Coursework
+#include "../sections/certifications/en/coursera-da.typ"

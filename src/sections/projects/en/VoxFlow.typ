@@ -1,5 +1,5 @@
 #import "../../../template.typ": project
 
 #project("VoxFlow", url: "https://github.com/faketut/VoxFlow")
-- Bidirectional Twilio ↔ Ultravox media over WebSocket, driven by a call FSM (greet → verify → schedule) with per-stage voice switching.
-- n8n post-call automation: TZ-aware calendar booking, HMAC-SHA256 signed outbound webhooks, retry with exponential backoff.
+- Built a bidirectional Twilio–Ultravox WebSocket bridge controlled by a call state machine for greeting, verification, and scheduling, with voice selection by stage.
+- Automated post-call calendar booking and webhook delivery in n8n with timezone-aware scheduling, HMAC-SHA256 signatures, and exponential-backoff retries.

@@ -1,6 +1,11 @@
 #import "../template.typ": resume-defaults, gap, skills
 
-#show: resume-defaults
+#show: resume-defaults.with(
+  bullet-spacing: 8.4pt,
+  list-spacing-above: 7.2pt,
+  section-spacing-above: 17.5pt,
+  section-spacing-below: 6.6pt,
+)
 
 #include "../header.typ"
 
@@ -8,12 +13,10 @@
 #include "../sections/common/edu.typ"
 = Skills
 #skills((
-  ("Languages", [Python, C/C++, Java, C\#, Go, Bash, Typescript, Javascript, SQL, R, VBA]),
-  ("AI/ML", [PyTorch, TensorFlow, LangChain, LangGraph, scikit-learn, Microsoft Agent Framework, OpenCV, pandas]),
-  ("Frameworks", [.Net, Spring Boot, React, Angular, Node.js, Flask, Rails, FastAPI, iOS, Android]),
+  ("Languages", [Python, C/C++, Java, C\#, Go, Bash, SQL]),
+  ("Backend & Systems", [.NET, Spring Boot, FastAPI, Node.js]),
   ("Databases", [PostgreSQL, MySQL, MongoDB, Redis]),
-  ("Cloud & DevOps", [AWS, GCP, Azure, Docker, K8s, Terraform, GitHub Actions, Linux, Jenkins]),
-  ("Tools", [Git, Jira, Confluence])
+  ("Cloud & DevOps", [AWS, GCP, Azure, Docker, Kubernetes, Terraform, GitHub Actions, Linux, Jenkins])
 ))
 = Experience
 #include "../sections/experience/en/coop-manulife-fin.typ"
@@ -26,10 +29,12 @@
 
 
 = Projects
-#include "../sections/projects/en/ArmyOfSafeguard.typ"
+#include "../sections/projects/en/MiniKV.typ"
+#gap()
+#include "../sections/projects/en/wlp4-compiler.typ"
 = Achievements
-- Scaled UX Research Hub 32× (10→318 members) as Director; negotiated Google UXR keynote at \$0 cost and brokered TikTok chapter cross-promotion for sustained recruitment growth.
-- Velocity Co-op Problem Award (top submission among co-op cohort); 3rd Place, SAF Investment Research Challenge; Finalist, SAF Strategy Case Competition, Moonshot Hackathon Winner 
+- *Velocity Co-op Problem Award* (top submission in cohort); Moonshot Hackathon Winner.
+- Grew UX Research Hub *32× (10→318 members)* as Director; secured a Google UXR keynote at no cost.
 
 = Coursework
 #include "../sections/certifications/en/coursera-se.typ"

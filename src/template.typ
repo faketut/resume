@@ -31,7 +31,7 @@
 #let text-font = "Libertinus Serif"
 #let body-size = pt(12)     // \small — bullets, down-left rows, skills, contact
 #let body-pitch = pt(12)    // \baselineskip of \small text
-#let entry-size = pt(11)    // \normalsize — bold company row of an entry
+#let entry-size = pt(12)    // \normalsize — bold company row of an entry
 #let heading-size = pt(12)  // \large — section headings
 #let name-size = pt(24)     // \Huge \scshape
 
@@ -39,7 +39,7 @@
 #let entry-indent = 0.15in * scale        // \resumeSubHeadingList leftmargin
 #let bullet-indent = 0.05in * scale       // entry indent + itemize label offset
 #let bullet-body-indent = 0.13in * scale  // gap between bullet and text
-#let bullet-gap = pt(7.1)                 // between two bullets
+#let bullet-gap = pt(8)                 // between two bullets
 #let list-above = pt(6.9)                 // entry → its bullets (itemize \topsep)
 #let entry-gap = pt(5.7)                  // last bullet of an entry → next entry
 #let heading-above = pt(16.2)             // body text → section heading
@@ -49,7 +49,14 @@
 #let name-contact-gap = pt(3.9)           // name line box → contact row
 #let rule-stroke = 0.4pt                  // \titlerule, unscaled
 
-#let resume-defaults(font: text-font, body) = {
+#let resume-defaults(
+  font: text-font,
+  body,
+  bullet-spacing: bullet-gap,
+  list-spacing-above: list-above,
+  section-spacing-above: heading-above,
+  section-spacing-below: heading-below,
+) = {
   set page(paper: "us-letter", margin: page-margin, fill: white)
   set text(font: font, size: body-size, fill: black, hyphenate: false)
   set par(justify: false, leading: body-pitch - 0.684em, spacing: body-pitch - 0.684em)
@@ -58,19 +65,19 @@
     marker: [•],
     indent: bullet-indent,
     body-indent: bullet-body-indent,
-    spacing: bullet-gap,
+    spacing: bullet-spacing,
   )
   // Bullets close their entry visually: LaTeX gives the itemize list extra
   // space above while the entry heading itself contributes none.
-  show list: it => block(above: list-above, it)
+  show list: it => block(above: list-spacing-above, it)
 
   // \hypersetup{hidelinks}
   show link: set text(fill: black)
 
   show heading.where(level: 1): it => block(
     width: 100%,
-    above: heading-above,
-    below: heading-below,
+    above: section-spacing-above,
+    below: section-spacing-below,
     height: 0.684 * heading-size + title-rule-gap,
   )[
     #place(top + left, text(size: heading-size, smallcaps(it.body)))

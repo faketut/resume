@@ -7,12 +7,10 @@
 #include "../sections/common/edu.typ"
 = Skills
 #skills((
-  ("Languages", [Python, C/C++, Java, C\#, Go, Bash, Typescript, Javascript, SQL, R]),
-  ("AI/ML", [PyTorch, TensorFlow, Hugging Face, LangChain, LangGraph, scikit-learn, Microsoft Agent Framework, OpenCV, pandas]),
-  ("Frameworks", [.Net, Spring Boot, React, Angular, Node.js, Flask, Rails, FastAPI]),
-  ("Databases", [PostgreSQL, MySQL, MongoDB, Redis]),
-  ("Cloud & DevOps", [AWS, GCP, Azure, Docker, K8s, Terraform, GitHub Actions, Linux, Jenkins]),
-  ("Tools", [Git, Jira, Confluence, Excel, PowerBI])
+  ("Languages", [Python, C/C++, Java, Go, SQL]),
+  ("ML", [PyTorch, TensorFlow, Hugging Face, scikit-learn, XGBoost, OpenCV, pandas]),
+  ("LLM & Agents", [LangChain, LangGraph, Google ADK]),
+  ("Data & Cloud", [PostgreSQL, MongoDB, Redis, AWS, Azure, GCP, Docker, Kubernetes])
 ))
 = Experience
 #include "../sections/experience/en/coop-manulife.typ"
@@ -29,15 +27,12 @@
 = Projects
 #include "../sections/projects/en/ArmyOfSafeguard.typ"
 #gap()
-#include "../sections/projects/en/GhostPilot.typ"
-#gap()
-#include "../sections/projects/en/Anchor.typ"
-#gap()
 #include "../sections/projects/en/PantryPilot.typ"
 
 = Achievements
-- Scaled UX Research Hub 32× (10→318 members) as Director; negotiated Google UXR keynote at \$0 cost and brokered TikTok chapter cross-promotion for sustained recruitment growth.
-- Velocity Co-op Problem Award (top submission among co-op cohort); 3rd Place, SAF Investment Research Challenge; Finalist, SAF Strategy Case Competition, Moonshot Hackathon Winner 
+- *Moonshot Hackathon Winner*; Velocity Co-op Problem Award (top submission in cohort).
+- Grew UX Research Hub *32× (10→318 members)* as Director.
 
 = Coursework
 #include "../sections/certifications/en/coursera-mle.typ"
+

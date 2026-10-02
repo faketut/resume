@@ -1,6 +1,6 @@
 #import "../../../template.typ": subheading
 
 #subheading("Manulife Financial Corporation", "Software Engineer", "May 2026 – Aug 2026", "Toronto, ON, Canada")
-- Spearheaded the product strategy for an enterprise orchestration platform servicing over 10K global internal customers; automated 1K+ daily operations, eliminating 100% of manual processing and accelerating time-to-market for revenue-generating financial applications by an estimated 30%.
-- Mitigated institutional security risks and ensured financial-grade compliance by overhauling the authentication architecture; designed fault-tolerant workflows that eliminated operational bottlenecks and saved approximately 400+ hours of engineering labor monthly.
-- Pioneered an AI-driven risk management initiative by integrating LLMs to proactively detect cloud deployment misconfigurations; intercepted 95% of unauthorized GitOps drifts, preventing potential service outages and safeguarding continuous revenue streams from end-customer transactions.
+- Owned automation of *1K+ daily cross-system operations* on an internal financial-services platform serving thousands of developers; ServiceNow pre-validation and skip-on-failure handling removed the manual exception queue.
+- Strengthened access control and auditability by replacing plaintext basic-auth GitHub access with *GitHub App token exchange* (PyGithub); added team-scoped validation and least-privilege permissions across catalog automations.
+- Added AKS cluster and certificate checks to GOCC, enabling a *Foundry LLM agent to compare GitOps PRs with live cluster state* and flag deployment misconfigurations before they reached production.
