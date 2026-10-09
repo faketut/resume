@@ -9,7 +9,7 @@
 #skills((
   ("Languages", [Python, C/C++, Java, Go, SQL]),
   ("ML", [PyTorch, TensorFlow, Hugging Face, scikit-learn, XGBoost, OpenCV, pandas]),
-  ("LLM & Agents", [LangChain, LangGraph, Google ADK]),
+  ("LLM & Agents", [LangChain, LangGraph, Microsoft Agent Framework]),
   ("Data & Cloud", [PostgreSQL, MongoDB, Redis, AWS, Azure, GCP, Docker, Kubernetes])
 ))
 = Experience

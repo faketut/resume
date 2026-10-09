@@ -1,7 +1,7 @@
 #import "../../../template.typ": subheading
 
 #subheading("Manulife Financial Corporation", "Software Engineer", "May 2026 – Aug 2026", "Toronto, ON, Canada")
-- Owned reusable ServiceNow catalog workflows used by *thousands of internal developers*; pre-validation plus skip-on-failure orchestration absorbed *1K+ daily cross-system operations* and eliminated the manual exception queue.
+- Owned reusable ServiceNow catalog workflows used by *5K+ developers*; pre-validation plus skip-on-failure orchestration absorbed *1K+ daily cross-system operations* and eliminated the manual exception queue.
 - Led the migration of the ServiceNow orchestrator off plaintext basic auth to *GitHub App token exchange* (PyGithub), adding team-scoped validation, automated permission scopes, and end-to-end audit trails for compliance review.
 - Extended the GOCC orchestrator with live kubectl and AKS certificate checks so a *Foundry LLM agent could diff GitOps PRs against cluster state*, catching deployment misconfigurations before release.
 /*

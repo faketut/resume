@@ -14,22 +14,19 @@
 ))
 
 = Experience
-#include "../sections/experience/en/coop-manulife-fin.typ"
+#include "../sections/experience/en/coop-manulife.typ"
 #gap()
-#include "../sections/experience/en/coop-tbs-fin.typ"
+#include "../sections/experience/en/research-uw.typ"
+#gap()
+#include "../sections/experience/en/coop-tbs.typ"
 #gap()
 #include "../sections/experience/en/intern-tiptop.typ"
 #gap()
-#include "../sections/experience/en/coop-lansi-fin.typ"
+#include "../sections/experience/en/coop-lansi.typ"
 #gap()
-#include "../sections/experience/en/intern-sanyang-fin.typ"
+#include "../sections/experience/en/intern-sanyang.typ"
 
-= Projects
-#include "../sections/projects/en/qmj-tsx.typ"
 
 = Achievements
-- 3rd Place, SAF Investment Research Challenge; Alpha FMC x CODE finalist, with a restructuring plan modeled to yield \$48K+ in potential savings.
-- Built budget tracking for a six-person UX Research Hub team, cutting planning time 40%; grew membership 32× (10→318).
-
-= Coursework
-#include "../sections/certifications/en/coursera-da.typ"
+- 3rd Place, SAF Investment Research Challenge; finalist, 7th Annual SAF Strategy Case Competition.
+- Grew UX Research Hub *32× (10→318 members)*
