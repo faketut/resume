@@ -1,5 +1,5 @@
 #import "../../../template.typ": project
 
-#project("Behavioral Provenance", url: "https://github.com/faketut/Behavioral-Provenance")
-- Python AST analysis (sources/sinks/sanitizers via YAML catalog) → ed25519-signed behavioral manifests with inter-procedural reachability; policy DSL evaluation and tamper detection without source access.
-- Cross-package registry (SQLite/MongoDB) answers reachability queries no public tool supports; 31 tests cover AST extraction, signing, policy, and storage backends.
+#project("Behavioral Provenance | Python", url: "https://github.com/faketut/Behavioral-Provenance")
+- Built an AST analyzer that identifies sources, sinks, sanitizers, and inter-procedural reachability, then emits Ed25519-signed behavioral manifests.
+- Added policy evaluation, tamper detection, and SQLite/MongoDB-backed cross-package reachability queries; covered core flows with 31 tests.

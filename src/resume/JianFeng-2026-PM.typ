@@ -36,6 +36,10 @@
 #project("Legos | BTCUSDT Trading Infrastructure", url: "https://github.com/faketut/legos")
 - Built a modular Rust trading pipeline connecting market-data feeds, order-book processing, market-making strategy, hard-limit risk checks, and exchange gateways; configured historical replay and Binance testnet integrations.
 - Benchmarked *10M ticks at 70 ns p99 in-process latency* (excluding network I/O); workspace includes *88 tests* across the trading pipeline.
+#gap()
+#project("Smart Handoff | Co-operators Designathon")
+- Designed Figma flows to turn anonymous digital traffic into qualified customer leads; proposed advisor routing based on customer intent and advisor capacity.
+- Pitched an omni-channel go-to-market strategy; projected *25% higher qualified lead capture* and *40% more high-intent customer volume* (designathon estimates, not measured outcomes).
 = Achievements
 - As UX Research Hub Director, responded to member requests for more industry-speaker events; secured a Google UXR researcher as a guest speaker, drawing *~50 attendees* and attracting *~50 new members*. Grew membership *32× (10→318)* and managed event funding with the executive team.
 - Velocity Co-op Problem Award (top submission among co-op cohort); 3rd Place, SAF Investment Research Challenge; Finalist, SAF Strategy Case Competition, Moonshot Hackathon Winner

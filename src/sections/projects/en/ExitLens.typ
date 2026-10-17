@@ -1,5 +1,5 @@
 #import "../../../template.typ": project
 
-#project("ExitLens", url: "https://github.com/faketut/ExitLens")
-- Six-stage motivational-interview chat streams over a state machine; multi-LLM fallback chain (OpenAI → Anthropic → DeepSeek → Gemini) auto-selects whichever is live.
-- Next.js landing/interview/chat/dashboard surfaces aggregated HR insights; Dockerized for Tencent CloudBase deployment. Tencent AI-HR 2026 entry.
+#project("ExitLens | Next.js", url: "https://github.com/faketut/ExitLens")
+- Built a six-stage motivational-interview chat around a state machine, with automatic fallback across OpenAI, Anthropic, DeepSeek, and Gemini.
+- Developed landing, interview, chat, and dashboard flows to collect and aggregate HR insights; containerized for Tencent CloudBase deployment.

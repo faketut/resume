@@ -1,5 +1,5 @@
 #import "../../../template.typ": project
 
-#project("DungeonSpire", url: "https://github.com/faketut/DungeonSpire")
-- Separated combat and AI simulation from ANSI rendering with interfaces and polymorphic entities, enabling `doctest` coverage without a terminal.
-- Added seeded procedural generation for byte-stable runs; CI tests catch regressions in map connectivity and spawn rules.
+#project("DungeonSpire | C++", url: "https://github.com/faketut/DungeonSpire")
+- Separated combat and enemy simulation from ANSI rendering with interfaces and polymorphic entities, enabling headless doctest coverage.
+- Added seeded procedural dungeon generation and CI checks for map connectivity and spawn rules.

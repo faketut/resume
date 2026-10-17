@@ -1,5 +1,5 @@
 #import "../../../template.typ": project
 
-#project("AccessibilityAlly", url: "https://github.com/faketut/AccessibilityAlly")
-- Slack Bolt-for-JS bot rewrites long threads per persona (PM, exec, new-hire, plain-language) via Gemini 2.0 Flash with bottom-line-first formatting.
-- App Home persona switcher, catch-up shortcut, slash commands, \@mention threading, and ephemeral feedback buttons across DM and channel contexts.
+#project("AccessibilityAlly | Slack AI Assistant", url: "https://github.com/faketut/AccessibilityAlly")
+- Built a Slack app with Bolt for JavaScript and Gemini that rewrites thread context for PM, executive, onboarding, and plain-language audiences.
+- Added catch-up shortcuts, slash commands, DMs and mentions, image alt-text generation, and Slack/Jira retrieval tools.

@@ -1,9 +1,5 @@
 #import "../../../template.typ": project
 
-#project("wlp4-compiler | C++", url: "https://github.com/faketut/C-class-compiler")
-- Built a *multi-pass C++ compiler* that scans, LR-parses, and type-checks WLP4 before generating ARM64 assembly; code generation supports control flow, procedures, pointers, and arrays.
-// - Reduced generated assembly size by *79.6%* versus reference `wlp4c` across 65 programs; CI checks byte-identical output on a 25-program regression suite.
-
-/*
-这个项目是一个多趟 C++ 编译器，目标是把 WLP4 语言编译成 ARM64 汇编。它的核心流程是词法分析、语法分析、语义检查和代码生成。技术上我采用 C++17，因为编译器需要强控制底层寄存器、栈帧和指令生成；在结构上，我把项目拆成 scanner、parser、typechecker、codegen 四个阶段，每一层都有明确输入输出，便于调试和扩展。最核心的模块是类型检查和代码生成，我通过符号表、过程表和 AST 注解来保证语义正确，再将其翻译为 ARM64 指令。这个项目的优点在于设计清晰、工程性强；改进点则在于进一步抽离 IR、增强优化 pass 和提高工程化能力。整体上，它体现了我对系统设计、数据结构、编译原理和底层实现的理解。
-*/
+#project("WLP4 Compiler | C++17", url: "https://github.com/faketut/C-class-compiler")
+- Built a multi-pass compiler with lexical analysis, LR parsing, semantic/type checking, and ARM64 code generation for control flow, procedures, pointers, and arrays.
+- Reduced generated executable size 79.6% versus the reference compiler across 65 benchmark programs; verified correctness with byte-identical regression tests.

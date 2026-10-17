@@ -1,6 +1,5 @@
 #import "../../../template.typ": project
 
-#project("ChefCopilot", url: "https://github.com/faketut/Cogniscope")
-- Capture full problem-solving behavior using rrweb to analyze cognitive patterns from real solve sessions.
-- Use a deterministic three-stage LLM pipeline for state classification, root-cause diagnosis, and guaranteed JSON-valid report.
-- Produced personalized multi-tab report (SQLite row, raw events, replay) and a session-grounded Socratic tutor.
+#project("Cogniscope | Python, LLMs", url: "https://github.com/faketut/Cogniscope")
+- Captured problem-solving sessions with rrweb and analyzed learner behavior using a deterministic, three-stage LLM pipeline for state classification, diagnosis, and report generation.
+- Built a session-grounded report with event replay and a Socratic tutor for follow-up learning.

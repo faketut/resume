@@ -1,5 +1,5 @@
 #import "../../../template.typ": project
 
-#project("qmj-tsx", url: "https://github.com/faketut/qmj-tsx")
-- Reproduced Asness's Quality Minus Junk factor for TSX small caps; built a price-derived quality proxy to address sparse fundamental data and persisted the pipeline in Parquet.
-- Combined yfinance, AQR, and Ken French data to run Newey-West regressions and robustness checks across sectors, weighting schemes, and subperiods.
+#project("QMJ on TSX Small-Caps | Python", url: "https://github.com/faketut/qmj-tsx")
+- Reproduced the QMJ-Canada factor and tested a price-derived quality proxy on 109 TSX small caps where free-source fundamentals were sparse.
+- Built a reproducible Parquet pipeline with Newey–West regressions and robustness checks; the proxy showed near-zero factor return and no correlation with the benchmark.
