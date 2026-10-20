@@ -10,7 +10,8 @@
   ("Programming & SQL", [Python, SQL, R, pandas]),
   ("Data Science", [scikit-learn, XGBoost, PyTorch, Hugging Face Transformers, LoRA, time series]),
   ("Data Platforms", [Airflow, dbt, BigQuery, PostgreSQL, MySQL, SQL Server]),
-  ("Analytics & BI", [statistical analysis, feature engineering, Excel, Power BI, Tableau, Looker Studio])
+  ("Analytics & BI", [statistical analysis, feature engineering, Excel, Power BI, Tableau, Looker Studio]),
+  ("Finance", [equity research, DCF/IRR, portfolio analysis, risk management, factor investing, derivatives, fixed income, credit])
 ))
 
 = Experience
@@ -35,11 +36,13 @@
 - Applied XGBoost and SMR/MR#super[2] across a *68-study meta-analysis* to screen evidence and prioritize candidate drug targets for published research.
 
 = Projects
-#project("QMJ on TSX Small-Caps | Quantitative Research", url: "https://github.com/faketut/qmj-tsx")
-- Reproduced AQR's QMJ-Canada baseline and tested a price-derived quality proxy on *109 TSX small-caps*, finding near-zero factor returns and no correlation with the benchmark.
+#include "../sections/projects/en/cfm301-efficient-portfolio.typ"
 #gap()
-#project("CabStream ETL | NYC Taxi Analytics", url: "https://github.com/faketut/CabStream-ETL")
-- Built an Airflow pipeline from NYC taxi data through GCS and BigQuery to dbt marts and a Looker Studio dashboard; provisioned GCP resources with Terraform.
+#include "../sections/projects/en/cfm301-ey-factor.typ"
+#gap()
+#include "../sections/projects/en/CabStream_ETL.typ"
+
 
 = Achievements
-- *3rd of 45 teams*, SAF Investment Research Challenge; finalist, 7th Annual SAF Strategy Case Competition; WorldQuant Brain Gold Level (*20 quality alphas; Research Consultant candidate*).
+- *3rd of 45 teams*, SAF Investment Research Challenge; finalist, 7th Annual SAF Strategy Case Competition; WorldQuant Brain Gold Level (*20 quality alphas; Research Consultant candidate*), Velocity Co-op Problem Award (top submission in cohort).
+- As UX Research Hub Director, owned community growth and programming end-to-end: ran member research, secured a Google UXR guest speaker (*~50 attendees*, *~50 new members*), grew membership *32× (10→318)*, and managed event funding with the executive team.

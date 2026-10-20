@@ -14,7 +14,7 @@
   ("Languages", [Python, Java, C/C++, C\#, Go, Rust, TypeScript, SQL, Bash]),
   ("Frameworks & APIs", [.NET, Spring Boot, FastAPI, React, Node.js, REST, WebSockets]),
   ("Data & Cloud", [PostgreSQL, MySQL, MongoDB, Redis, Azure, AWS, GCP, Docker, Kubernetes]),
-  ("Tools", [Terraform, GitHub Actions, Linux, Katalon, Selenium, PyTorch, Hugging Face])
+  ("Tools", [Terraform, GitHub Actions, Linux, Katalon, Selenium, PyTorch, Hugging Face, Power BI, Power Automate, Excel, Figma, Jira/Atlassian, Confluence, Notion])
 ))
 = Experience
 
@@ -44,10 +44,11 @@
 #include "../sections/common/edu.typ"
 
 = Projects
-#include "../sections/projects/en/ChainReaction.typ"
+#include "../sections/projects/en/Legos.typ"
 #gap()
-#include "../sections/projects/en/godot-handrow.typ"
+#include "../sections/projects/en/MiniKV.typ"
 #gap()
-#include "../sections/projects/en/GhostPilot.typ"
+#include "../sections/projects/en/wlp4-compiler.typ"
 = Achievements
-- *Velocity Co-op Problem Award* (top submission in cohort); Moonshot Hackathon Winner; Grew UX Research Hub *32× (10→318 members)*.
+- *Velocity Co-op Problem Award* (top submission in cohort); Moonshot Hackathon Winner
+- As UX Research Hub Director, owned community growth and programming end-to-end: ran member research, secured a Google UXR guest speaker (*~50 attendees*, *~50 new members*), grew membership *32× (10→318)*, and managed event funding with the executive team.

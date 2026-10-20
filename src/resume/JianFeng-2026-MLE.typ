@@ -46,6 +46,7 @@
 = Projects
 #include "../sections/projects/en/ArmyOfSafeguard.typ"
 #gap()
-#include "../sections/projects/en/AccessibilityAlly.typ"
+#include "../sections/projects/en/GhostPilot.typ"
 = Achievements
-- *Velocity Co-op Problem Award* (top cohort submission); Moonshot Hackathon Top 100 finalist (solo entrant among 646); grew UX Research Hub *32× (10→318 members)*.
+- *Velocity Co-op Problem Award* (top cohort submission); Moonshot Hackathon Top 100 finalist Award; WorldQuant Brain Gold Level (research consultant candidate)
+- As UX Research Hub Director, owned community growth and programming end-to-end: ran member research, secured a Google UXR guest speaker (*~50 attendees*, *~50 new members*), grew membership *32× (10→318)*, and managed event funding with the executive team.

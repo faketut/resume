@@ -31,6 +31,10 @@
 - Applied XGBoost and SMR/MR#super[2] across a *68-study meta-analysis* to screen evidence and narrow candidate drug targets for published research.
 
 = Projects
+#include "../sections/projects/en/cfm301-efficient-portfolio.typ"
+#gap()
+#include "../sections/projects/en/cfm301-ey-factor.typ"
+#gap()
 #project("Snowball Pricer | Basket Autocallable Options", url: "https://github.com/faketut/snowball-pricer")
 - Built a market-data-to-pricing pipeline for basket autocallables: option-chain feeds → SSVI implied-volatility surface → Dupire local-vol Monte Carlo pricing and Greeks.
 - Defined a model error budget for sampling, stale market data, and model-vs-dealer pricing differences; default yfinance feed is delayed, with Questrade L1 as an optional real-time feed.
@@ -41,4 +45,4 @@
 
 = Achievements
 - 3rd of *45 teams* (School of Accounting and Finance students), SAF Investment Research Challenge; finalist, 7th Annual SAF Strategy Case Competition; WorldQuant Brain Gold Level (*20 quality alphas; Research Consultant candidate*).
-- Grew UX Research Hub *32× (10→318 members)*; built a budget tracker that cut planning time *40%* for a six-person team and allocated seed funding to three on-time projects.
+- As UX Research Hub Director, owned community growth and programming end-to-end: ran member research, secured a Google UXR guest speaker (*~50 attendees*, *~50 new members*), grew membership *32× (10→318)*, and managed event funding with the executive team.
